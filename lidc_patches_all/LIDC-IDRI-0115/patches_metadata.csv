@@ -1,0 +1,6 @@
+scan_id,patient_id,nodule_index,k_global,img_path,mask_path,area_mm2,nodule_bbox_xmin,nodule_bbox_ymin,nodule_bbox_xmax,nodule_bbox_ymax,ann_subtlety,ann_internalStructure,ann_calcification,ann_sphericity,ann_margin,ann_lobulation,ann_spiculation,ann_texture,ann_malignancy
+6,LIDC-IDRI-0115,0,89,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k89_img.png,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k89_mask.png,98.49869999999997,247,98,328,178,5,1,6,4,4,2,2,5,4
+6,LIDC-IDRI-0115,0,90,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k90_img.png,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k90_mask.png,142.16645699999998,247,98,328,178,5,1,6,4,4,2,2,5,4
+6,LIDC-IDRI-0115,0,91,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k91_img.png,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k91_mask.png,161.53786799999997,247,98,328,178,5,1,6,4,4,2,2,5,4
+6,LIDC-IDRI-0115,0,92,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k92_img.png,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k92_mask.png,151.68799799999996,247,98,328,178,5,1,6,4,4,2,2,5,4
+6,LIDC-IDRI-0115,0,93,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k93_img.png,./lidc_patches_all\LIDC-IDRI-0115\LIDC-IDRI-0115_n0_k93_mask.png,128.70496799999998,247,98,328,178,5,1,6,4,4,2,2,5,4
