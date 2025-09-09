@@ -78,10 +78,10 @@ Explanation of the parameters for the main function `save_patches_and_metadata()
         mode: Slice selection mode ("intersect" or "union")
 
 The important parameters are:
-`pad`：The number of pixels to pad the bounding box to ensure the nodule region is fully captured. The default is 25 pixels padding in the x and y directions, and no padding in the z direction.
-`drop_ends`：If set to True, the first and last slices of each nodule will be excluded, as these slices often contain only a small part of the nodule and may not be beneficial for model training. The default is True.
-`min_area_mm2`：Minimum area threshold (in square millimeters) for filtering out small nodules. The default is 50 mm².
-`n_neighbors`：Maximum number of neighboring slices around the largest area slice for each nodule to capture contextual information. The default is 2, meaning 2 slices above and 2 slices below the largest area slice (a total of 5 slices) are selected.
+1. `pad`：The number of pixels to pad the bounding box to ensure the nodule region is fully captured. The default is 25 pixels padding in the x and y directions, and no padding in the z direction.
+2. `drop_ends`：If set to True, the first and last slices of each nodule will be excluded, as these slices often contain only a small part of the nodule and may not be beneficial for model training. The default is True.
+3. `min_area_mm2`：Minimum area threshold (in square millimeters) for filtering out small nodules. The default is 50 mm².
+4. `n_neighbors`：Maximum number of neighboring slices around the largest area slice for each nodule to capture contextual information. The default is 2, meaning 2 slices above and 2 slices below the largest area slice (a total of 5 slices) are selected.
 
 The repository file structure is as follows:
 
