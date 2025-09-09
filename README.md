@@ -1,5 +1,7 @@
 **Extracted lung nodule patches from LIDC-IDRI dataset using pylidc library**
 
+(Chinese Documentation: [Here](Documentation/README_CHN.md))
+
 ![nodule_patches_extraction](img/patches_plot.png)
 
 ---
